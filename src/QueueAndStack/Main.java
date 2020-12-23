@@ -7,11 +7,11 @@ import java.util.Stack;
 public class Main {
 
     public static void main(String[] args) {
-        useDefaultQueue();
+        useLibraries();
 
     }
 
-    public static void useDefaultQueue(){
+    public static void useLibraries(){
         Queue<Integer> queue = new LinkedList<>(); // 큐 객체 생성
         Stack<Integer> stack = new Stack<>(); // 스택 객체 생성
 
