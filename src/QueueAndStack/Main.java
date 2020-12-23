@@ -68,14 +68,14 @@ public class Main {
         System.out.println("Stack : " + stack);
         // Stack : [1, 9, 13]
 
-        int pop = stack.pop();
+        int pop = stack.pop(); // pop: 맨 뒤의 원소 '빼냄'
         System.out.println("pop : " + pop);
         // pop : 13
 
         System.out.println("Stack : " + stack);
         // Stack : [1, 9]
 
-        pop = stack.pop();
+        pop = stack.pop(); // pop: 맨 뒤의 원소 '빼냄'
         System.out.println("pop : " + pop);
         // pop : 9
 
